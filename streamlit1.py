@@ -10,29 +10,14 @@ import streamlit as st
 # working with sample data.
 import numpy as np
 import pandas as pd
-import io
-
 #IMPORTAÇÃO DAS BIBLIOTECAS
-import os
 from scipy.integrate import quad
 import matplotlib.pyplot as plt
 #ENTRADA DE DADOS
 #filename=input('enter the name of the file:  ')
 #fname = os.path.join(filename) #pedir
-from pathlib import Path
-import tkinter.filedialog
-from tkinter import *
-import matplotlib
-from matplotlib.font_manager import FontProperties
 
 
-st.title('Calculating the Second Virial Coefficient ')
-
-
-
-
-st.subheader('File importing')
-uploaded_file = st.file_uploader("Choose a file")
 if uploaded_file is not None:
     
     bytes_data = uploaded_file.getvalue()
