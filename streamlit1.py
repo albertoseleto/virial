@@ -10,20 +10,13 @@ import streamlit as st
 # working with sample data.
 import numpy as np
 import pandas as pd
-import io
-
 #IMPORTAÇÃO DAS BIBLIOTECAS
-import os
 from scipy.integrate import quad
 import matplotlib.pyplot as plt
 #ENTRADA DE DADOS
 #filename=input('enter the name of the file:  ')
 #fname = os.path.join(filename) #pedir
-from pathlib import Path
-import tkinter.filedialog
-from tkinter import *
-import matplotlib
-from matplotlib.font_manager import FontProperties
+
 
 
 st.header('File importing.')
